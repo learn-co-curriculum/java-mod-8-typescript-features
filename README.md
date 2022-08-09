@@ -71,7 +71,7 @@ But any IDE that supports TypeScript will have the ability to give you an error
 message in your editor as soon as it sees code that is not consistent with the
 types that you have indicated:
 
-![TypeScript wrong type](ts-wrong-type.png)
+![TypeScript wrong type](https://curriculum-content.s3.amazonaws.com/java-mod-8/ts-wrong-type.png)
 
 ## Complex Types
 
@@ -369,7 +369,7 @@ Your code will now compile with the `tsc` command and you should be able to open
 output when you enter numerical values in the input fields and click the "Add!"
 button:
 
-![Add HTML Results](ts-add-html.png)
+![Add HTML Results](https://curriculum-content.s3.amazonaws.com/java-mod-8/ts-add-html.png)
 
 > Data validation in HTML is a complex subject that is beyond the scope of this
 > particular section, so this example is incomplete. In reality, we would want
@@ -527,7 +527,7 @@ we're trying to combine 2 types when the function signature clearly states that
 whatever the type of the array is, it needs to be the same type as the type of
 value we're trying to add to it:
 
-![TypeScript - Wrong Generics](ts-wrong-generics.png)
+![TypeScript - Wrong Generics](https://curriculum-content.s3.amazonaws.com/java-mod-8/ts-wrong-generics.png)
 
 So we can now define functions that are flexible enough to work with any type,
 but that retain TypeScript's ability to enforce proper usage of types.
